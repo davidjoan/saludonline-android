@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/fondo"
+    android:orientation="horizontal"
+    android:padding="15dip" >
+
+    <TableLayout
+        android:layout_width="49dp"
+        android:layout_height="182dp"
+        android:layout_weight="0.27" >
+
+        <TableRow>
+
+            <TextView
+                style="@style/Header"
+                android:layout_width="49dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.24"
+                android:text="@string/hello" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button 
+		    android:background="@drawable/logo"
+                android:id="@+id/logo"
+                android:layout_width="49dp"
+                android:layout_height="164dp"
+                android:layout_weight="0.24" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="354dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical" 
+        android:layout_marginLeft="10dp" >
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login" />
+
+        <EditText
+            android:id="@+id/txtUsuario"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <requestFocus>
+            </requestFocus>
+        </EditText>
+
+        <TextView
+            style="@style/Text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/password" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" >
+        </EditText>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnLogin" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:text="@string/copyright" />
+    </LinearLayout>
+
+</LinearLayout>	

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Bienvenido!</string>
+	<string name="app_name">Salud Online</string>
+	<string name="login">Usuario:</string>
+	<string name="password">Contraseña:</string>
+	<string name="btnLogin">Ingresar</string>
+	<string name="copyright">© Desarrollo por DATA Solutions / 2011</string>
+	<string name="slogan">Salud y Tecnología a tu alcance</string>
+	<string name="logo_description">Logo de Salud Online</string>
+	<string name="about_title">About Salud Online</string>
+	<string name="about_text">Salud Online es una plataforma donde podras guardar tu información medica y compartirla con los centros medicos y hospitales. </string>
+	<string name="panel_title">Welcome</string>
+	<string name="panel_text">Bienvenido a Salud Online. </string>
+</resources>
+
